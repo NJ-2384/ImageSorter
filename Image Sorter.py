@@ -5,7 +5,7 @@ from PIL import Image as im
 import os
 import shutil
 
-pname = "Kottu"
+pname = "Your_Name"
 
 print(f"[INFO] loading encodings for {pname}...")
 
@@ -35,7 +35,7 @@ def process_frame(frame, index):
         if ((face_distances[0]+face_distances[1]+face_distances[2]+face_distances[3])/4 < 0.425 and max < 0.95 and avg < 0.5):
             shift_list.append(index)
 
-dir = 'D:\\Desktop\\Phone'
+dir = 'Your_Directory'
 
 def tree(path):
     addr = []     
