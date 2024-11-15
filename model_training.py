@@ -4,7 +4,7 @@ import pickle
 from PIL import Image as im
 from numpy import asarray
 
-name = "Kottu"
+name = "Your_Name"
 
 print("[INFO] start processing faces...")
 
